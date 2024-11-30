@@ -1,0 +1,21 @@
+# Put "==" after the library name to indicate the version used
+# First number indicates major version, second for minor version, third for patch version 
+
+# To install the latest minor or patch version of a library, can do something like this:
+# flask>=1.1.2,<2.0 (gives the latest version 1 flask
+
+# List down any dependencies used for the project below:
+
+--index-url https://download.pytorch.org/whl/cu118
+pytesseract
+opencv-python
+pillow
+imutils
+scikit-image
+numPy
+
+torch
+torchvision
+torchaudio
+
+Transformers
